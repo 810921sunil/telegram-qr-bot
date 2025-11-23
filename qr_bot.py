@@ -5,7 +5,7 @@ from io import BytesIO
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # Token environment se aayega (Render par secure way)
-BOT_TOKEN = os.environ.get("8033548750:AAEf0rOOeW58c7JcIoS3SweBQIaMj5YSAos")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
